@@ -1,13 +1,12 @@
 package br.com.dominio;
 
-public class Bootcamp {
-    import java.time.LocalDate;
+import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Objects;
 import java.util.Set;
 
-    public class Bootcamp1 {
+public class Bootcamp {
         private String nome;
         private String descricao;
         private final LocalDate dataInicial = LocalDate.now();
@@ -68,5 +67,4 @@ import java.util.Set;
         public int hashCode() {
             return Objects.hash(nome, descricao, dataInicial, dataFinal, devsInscritos, conteudos);
         }
-    }
 }
