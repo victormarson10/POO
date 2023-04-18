@@ -7,7 +7,7 @@ import java.util.LinkedHashSet;
 import java.util.Objects;
 import java.util.Set;
 
-    public class Bootcamp {
+    public class Bootcamp1 {
         private String nome;
         private String descricao;
         private final LocalDate dataInicial = LocalDate.now();
